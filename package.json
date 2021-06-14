@@ -1,0 +1,26 @@
+{
+  "name": "tech-column",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciyer87/tech-column.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciyer87/tech-column/issues"
+  },
+  "homepage": "https://github.com/ciyer87/tech-column#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
