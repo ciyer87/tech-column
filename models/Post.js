@@ -19,7 +19,11 @@ Post.init(
       },
       post_text: {
         type: DataTypes.TEXT,
-        allowNull: false
+        allowNull: false,
+        validate: {
+            // this means the password must be at least four characters long
+            len: [4]
+          }
       },
       user_id: {
         type: DataTypes.INTEGER,
