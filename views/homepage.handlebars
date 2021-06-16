@@ -1,13 +1,16 @@
 <ol class="post-list">
-  <li>
-    <div class="card">
+    {{#each posts as |post|}}
+    <li>
+     <div class="card">
       <div class="card-header">
         <h2><a href="/post/{{id}}">{{title}}</a></h2>
         <span>Posted by {{user.username}} on {{created_at}}</span>
+        
       </div>
       <div class="card-body">
         {{post_text}}
       </div>
-    </div>
-  </li>
+     </div>
+    </li>
+    {{/each}}
 </ol>
