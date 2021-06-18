@@ -168,6 +168,45 @@
   .edit-post-form {
     margin-bottom: 5%;
   }
+
+  /* Card Styles */
+
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid #2e2f3a;
+    border-radius: .3rem;
+    width: 100%;
+  }
+  
+  .card-header {
+    color: #ced3d7;
+    background-color: #2e2f3a;
+    padding: 2.5%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-header span {
+    font-size: smaller;
+  }
+  
+  .card-header i {
+    float: right;
+  }
+  
+  .card-body {
+    padding: 2.5%;
+    background-color: var(--primary);
+  }
+  
+  .card-header a, .card-header h2 {
+    color: #ced3d7;
+  }
+  
+  /* End Card Styles */
   
   footer {
     border-top: 1px solid #ccc;
