@@ -18,17 +18,17 @@ Clone the repositry from GitHub and open using Visual Studio Code.
   
 ![homepage](public/images/homepage-view.png)
 
-![login](assets/images/login-form.png)
+![login](public/images/login-form.png)
 
-![sign-up](assets/images/signup-form.png)
+![sign-up](public/images/signup-form.png)
 
-![leave-comment](assets/images/comment-box.png)
+![leave-comment](public/images/comment-box.png)
 
-![dashboard](assets/images/dashboard-view.png)
+![dashboard](public/images/dashboard-view.png)
 
-![create-new-post](assets/images/create-new-post.png)
+![create-new-post](public/images/create-new-post.png)
 
-![edit-post](assets/images/edit-post.png)
+![edit-post](public/images/edit-post.png)
 
 # Technologies
 
