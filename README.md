@@ -15,18 +15,31 @@ Clone the repositry from GitHub and open using Visual Studio Code.
 * Displayed site - https://nameless-badlands-40198.herokuapp.com/
 * Screenshots
 
-  
+Homepage
+
 ![homepage](public/images/homepage-view.png)
+
+Login Screen
 
 ![login](public/images/login-form.png)
 
+Sign-up Screen
+
 ![sign-up](public/images/signup-form.png)
+
+Comment Screen
 
 ![leave-comment](public/images/comment-box.png)
 
+Dashboard view of a logged in user
+
 ![dashboard](public/images/dashboard-view.png)
 
+Create new post by a logged in user
+
 ![create-new-post](public/images/create-new-post.png)
+
+edit post by a logged in user
 
 ![edit-post](public/images/edit-post.png)
 
